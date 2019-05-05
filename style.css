@@ -123,3 +123,25 @@ nav ul li a:hover {
   color: green;
 }
 
+footer {
+  padding: 20px;
+  background: #22313F;
+  color: white;
+  line-height: 50px;
+}
+
+footer a {
+  color: white;
+}
+
+@media only screen and (max-width: 367px) {
+  
+  .contact-details {
+    border: 2px solid #90C695;
+    border-radius: 0;
+    width: 90px;
+    height: 20px;
+    padding: 10px;
+    line-height: normal;
+  }
+}
